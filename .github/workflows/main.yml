@@ -50,7 +50,7 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.KEY }}
+        password: ${{ secrets.PASSWROD }}
         port: ${{ secrets.PORT }}
         script: |
           cd /root/realworld-nuxtjs
