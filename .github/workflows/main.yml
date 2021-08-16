@@ -53,7 +53,7 @@ jobs:
         password: ${{ secrets.PASSWROD }}
         port: ${{ secrets.PORT }}
         script: |
-          cd / home/realworld
+          cd /home/realworld
           wget https://github.com/Littledevil7/nuxt-app/releases/latest/download/release.tgz -O release.tgz
           tar zxvf release.tgz
           npm install --production
